@@ -5,7 +5,7 @@
 ##         [ft_std::stod(std::string)](https://github.com/NULL-Term1nat0r/class-ft_std/blob/main/ReadMe_Files/ft_std%3A%3Astod.md)
 # };
 
-## #1::Example
+## #1_testExample
 
 ```bash
 estruckm@c2s11d52 class_ft_std % ./converter 454.4545f
@@ -16,7 +16,7 @@ test stof new: 454.454
 test stod original: 454.454
 test stod new: 454.454
 ```
-## #2::Example
+## #2_testExample
 
 ```bash
 estruckm@c2s11d52 class_ft_std % ./converter b        
@@ -27,7 +27,7 @@ test stof new: new one failed
 test stod original: original failed
 test stod new: new one failed
 ```
-## #3::Example
+## #3_testExample
 
 ```bash
 estruckm@c2s11d52 class_ft_std % ./converter 454344324234234
