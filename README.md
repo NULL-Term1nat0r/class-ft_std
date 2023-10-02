@@ -5,36 +5,37 @@
 ##         [ft_std::stod(std::string)](https://github.com/NULL-Term1nat0r/class-ft_std/blob/main/ReadMe_Files/ft_std%3A%3Astod.md)
 # };
 
+
 ## #1_testExample
 
 ```bash
-estruckm@c2s11d52 class_ft_std % ./converter 454.4545f
-test stoi original: 454
-test stoi new: 454
-test stof original: 454.454
-test stof new: 454.454
-test stod original: 454.454
-test stod new: 454.454
+estruckm@c2s11d52 class_ft_std % ./converter 454.23242424f
+test std::stoi:    454
+test ft_std::stoi: 454
+test std::stof:    454.232
+test ft_std::stof: 454.232
+test std::stod:    454.232
+test ft_std::stod: 454.232
 ```
 ## #2_testExample
 
 ```bash
-estruckm@c2s11d52 class_ft_std % ./converter b        
-test stoi original: original failed
-test stoi new: new one failed
-test stof original: original failed
-test stof new: new one failed
-test stod original: original failed
-test stod new: new one failed
+estruckm@c2s11d52 class_ft_std % ./converter b            
+test std::stoi:    original failed
+test ft_std::stoi: new one failed
+test std::stof:    original failed
+test ft_std::stof: new one failed
+test std::stod:    original failed
+test ft_std::stod: new one failed
 ```
 ## #3_testExample
 
 ```bash
-estruckm@c2s11d52 class_ft_std % ./converter 454344324234234
-test stoi original: original failed
-test stoi new: new one failed
-test stof original: 4.54344e+14
-test stof new: 4.54344e+14
-test stod original: 4.54344e+14
-test stod new: 4.54344e+14
+estruckm@c2s11d52 class_ft_std % ./converter 543534543543353453533
+test std::stoi:    original failed
+test ft_std::stoi: new one failed
+test std::stof:    5.43535e+20
+test ft_std::stof: 5.43535e+20
+test std::stod:    5.43535e+20
+test ft_std::stod: 5.43535e+20
 ```
