@@ -1,5 +1,6 @@
 # class ft_std{
-## //this class is a collection of recoded functions in C++98 Standard which behave like the originals ones from C++11-Standard
+## //this class is a collection of recoded functions in C++98 Standard which 
+## //behave like the originals ones from C++11-Standard
 ## public:
 ## -> [ft_std::stoi(std::string)](https://github.com/NULL-Term1nat0r/class-ft_std/blob/main/ReadMe_Files/ft_std%3A%3Astoi.md)
 ## -> [ft_std::stof(std::string)](https://github.com/NULL-Term1nat0r/class-ft_std/blob/main/ReadMe_Files/ft_std%3A%3Astof.md)
