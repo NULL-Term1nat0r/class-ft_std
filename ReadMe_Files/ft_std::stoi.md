@@ -30,6 +30,7 @@
 ```cpp
 #include <iostream>
 #include <string>
+#include "ft_std.hpp"
 
 int main() {
     try {
